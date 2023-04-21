@@ -133,37 +133,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5372277704935712404, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
   m_PrefabInstance: {fileID: 5372277705121972861}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &368731373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 368731368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: e671be2bbc8d13748b4222952537dd02, type: 2}
---- !u!114 &368731374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 368731368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1 &607335213
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +494,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 843512039}
     m_Modifications:
+    - target: {fileID: 603972823472528776, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
+      propertyPath: _data._json
+      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 603972823472528776, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 603972823472528776, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: fcb00109fa4d85e4f9edbac927946c09, type: 2}
     - target: {fileID: 5372277704935712404, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -888,18 +869,6 @@ PrefabInstance:
     - target: {fileID: 5372277704935712405, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
       propertyPath: m_Name
       value: PlayButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372277704935712407, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
-      propertyPath: m_Colors.m_SelectedColor.b
-      value: 0.68553454
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372277704935712407, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
-      propertyPath: m_Colors.m_SelectedColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5372277704935712407, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
-      propertyPath: m_Colors.m_SelectedColor.r
-      value: 0.85973006
       objectReference: {fileID: 0}
     - target: {fileID: 5372277704947225645, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
       propertyPath: m_fontAsset

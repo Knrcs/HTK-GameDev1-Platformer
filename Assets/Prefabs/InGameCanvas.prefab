@@ -90,6 +90,8 @@ GameObject:
   - component: {fileID: 1967691165432716888}
   - component: {fileID: 1967691165432716895}
   - component: {fileID: 1967691165432716894}
+  - component: {fileID: 2369451477978227115}
+  - component: {fileID: 8259347932123600558}
   m_Layer: 5
   m_Name: InGameCanvas
   m_TagString: Untagged
@@ -180,6 +182,43 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &2369451477978227115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967691165432716893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PausePanel","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ContinueButton","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PauseButton","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1967691165350777149}
+    - {fileID: 5890865178766968553}
+    - {fileID: 5890865178434934201}
+--- !u!114 &8259347932123600558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967691165432716893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 92ff0fbabacd73541988f4f1f78df39a, type: 2}
 --- !u!1 &1967691166245212792
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,6 +696,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
+--- !u!114 &5890865178766968553 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5372277704935712407, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
+  m_PrefabInstance: {fileID: 1967691165938360446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5890865178766968554 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5372277704935712404, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
@@ -826,6 +876,17 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 603972823472528776, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
+--- !u!114 &5890865178434934201 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5372277704935712407, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
+  m_PrefabInstance: {fileID: 1967691166269092654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5890865178434934203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5890865178434934202 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5372277704935712404, guid: f975cf19b17c0c04eacc7f372521702a, type: 3}
